@@ -1,9 +1,9 @@
 class Solution {
     public int[] getFrequency(String str){
         int[] freq = new int[26];
-        for(int idx=0;idx< str.length();idx++){
-            char ch = str.charAt(idx);
-        }
+        // for(int idx=0;idx< str.length();idx++){
+        //     char ch = str.charAt(idx);
+        // }
         for(char ch : str.toCharArray())
         freq[ch-'a']++;
     return freq;
